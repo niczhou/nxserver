@@ -1,0 +1,321 @@
+* {
+	padding:0;
+	margin:0;
+	border:none;
+	list-style:none;
+	text-decoration:none;
+}
+
+	.header {
+		height:50px;
+		width:100%;
+		/* background:#cca; */
+		padding-top:20px;
+	}
+		.lg {
+			width:192px;
+			height:52px;
+			float:left;
+			margin:-10px 0 0 60px;
+		}
+		.navi {
+			display:block;
+			height:35px;
+			float:left;
+			width:480px;
+			margin:0px 0 0 180px;
+			/* background:pink; */
+		}		
+		.navi ul {
+			display:block;
+			/* padding-top:8px; */
+		}
+		.navi ul li {
+			height:19px;
+			width:68px;
+			display:inline-block;
+			font-weight:600;
+			margin:0px 0 0 8px;
+			color:#2d96cd;
+		}
+		.navi ul li span {		
+			cursor:pointer;
+		}
+		.header a:link {text-decoration:none;color:#2d96cd;}
+		.header a:hover {text-decoration:none;color:black;}
+		.header a:active {text-decoration:none;color:black;}
+		.header a:visited {text-decoration:none;color:#2d96cd;}
+		
+		.navi-auto {
+			height:445px;
+			width:100%;
+			background:white;
+			z-index:30;
+			position:absolute;
+			top:70px;
+			left:0;
+			display:none;
+		}
+			.auto-class {
+				padding-top:25px;
+				height:40px;
+				width:100%;
+				padding-left:35%;
+				display:block;
+				border-top:3px groove #ccc;
+				background:rgb(251,251,251);
+				float:left;
+			}
+				.auto-class li>span {
+					width:88px;
+					height:37px;
+					display:block;
+					font-size:15px;
+					font-weight:100;
+					text-align:center;
+					cursor:pointer;
+				}	
+				.auto-class .curr>span {
+					border-bottom:5px solid black;
+				}
+				
+				.auto-foto {
+						height:165px;
+						width:100%;
+						display:block;
+						background:white;
+						border-top:1.2px solid #ccc;
+						float:left;
+					}				
+					.acar {
+						height:115px;
+						width:100%;
+						display:block;
+						margin:25px auto;
+						padding-left:30px;
+					}
+					.acar li {
+						display:block;
+						height:75px;
+						width:265px;
+						display:inline-block;
+						float:left;
+						/* background:black; */
+					}
+					
+					.acar img {
+						height:61.8px;
+						width:123.7px;
+						display:block;
+						background:#caa;
+					}
+						.acar li span {
+							height:37px;
+							width:60%;
+							display:block;
+							text-align:center;
+							margin: 5px auto;
+							font-size:15px;
+							/* background:#cca; */
+						}
+				
+					.scut {
+						display:block;
+						height:180px;
+						width:100%;
+						background:white;
+						float:left;
+						border-top:1.2px solid #ccc;
+						/* border-width:90%; */
+					}
+					
+					.scut span {
+						display:block;
+						height:54px;
+						width:22%;
+						margin:24px 40%;
+						float: top;
+						background:#2d96cd; 
+						color:white;
+						font-size:16px;
+						line-height:54px;
+						text-align:center;
+						vertical-align:center;
+						cursor:pointer;
+					}
+						.navi-auto p span:hover {
+							background:white;
+							color:black;
+							border:1.2px solid #ccc; 
+						}
+			
+		.canv {
+			height:225px;
+			width:15%;
+			margin:0 40%;
+			background:#ccc;
+			z-index:30;
+			position:absolute;
+			top:70px;
+			left:0;
+			display:none;
+		}
+		
+		canvas {
+			border:1px solid coral;
+			margin:2px 40px;
+		}
+		
+		
+		.geo {
+			float:left;
+			font-size:15px;
+		}
+		
+		.drive {
+			float:left;
+			font-size:15px;
+			margin:5px 0 0 15px;
+		}
+		
+	.banner {
+		height:458.7px;
+		width:100%;
+		background:#ccc;			
+	}
+		.banner ul {
+			height:100%;
+			width:1201px;
+			display:block;
+			overflow:hidden;
+			position:relative;
+		}
+	
+		.banner ul li{
+			height:100%;
+			width:1201px;
+			display:inline-block;
+			float:left;
+			position:relative;
+			/* left:-800px; */
+		}
+		.ban-btn {
+			height:25px;
+			width:100%;
+			display:block;
+			z-index:20;
+			/* background:#ccc; */
+			position:absolute;
+			top:480px;
+			padding-left:48%;	
+		}
+			.ban-btn span {
+				height:10px;
+				width:10px;
+				display:block;
+				float:left;
+				margin-right:20px;
+				background:white;
+				cursor:pointer;
+				border-radius:50%;
+			}
+			.ban-btn .active {
+				height:13px;
+				width:13px;
+				background:rgba(0,0,0,0);
+				border:2px solid white;
+				margin-top:-3px;
+			}
+			
+		.mond-desc {
+			height:197px;
+			width:55%;
+			display:block;
+			position:absolute;
+			left:50px;
+			top:25px;
+			z-index:20;
+			/* background:blue; */
+		}
+		.mond-desc span:first-child{
+			width:80%;
+			display:block;
+			float:top;
+			color:black;
+			font-size:42px;
+			font-weight:200;
+			margin:10px 0;
+		}
+		.mond-desc span:nth-child(2){
+			width:95%;
+			display:block;
+			float:top;
+			color:black;
+			font-size:42px;
+			font-weight:600;
+			margin:10px 0;
+		}
+		.mond-desc span:nth-child(3){
+			width:35%;
+			height:48px;
+			line-height:48px;
+			display:block;
+			float:top;
+			color:white;
+			font-size:20px;
+			font-weight:100;
+			margin:15px 0;
+			background:#2d96cd;
+			text-align:center;
+			vertical-align:center;
+			cursor:pointer;
+		}	
+
+		
+	.fk {
+		height:572.14px;
+		width:100%;
+		background:#caa;		
+		background:url("img/image.imgs.full.high.jpeg") no-repeat;
+		background-size: 1201px 572.14px;
+	}
+		.slogen {
+			height:245px;
+			width:60%;
+			margin:80px auto;
+			/* background:cyan; */
+		}
+		.slogen span:first-child{
+			width:80%;
+			display:block;
+			float:top;
+			color:#616161;
+			font-size:40px;
+			font-weight:300;
+			margin:15px auto;
+		}
+		.slogen span:nth-child(2){
+			width:35%;
+			display:block;
+			float:top;
+			color:#616161;
+			font-size:18px;
+			font-weight:200;
+			margin:15px auto;
+		}
+		.slogen span:nth-child(3){
+			width:35%;
+			height:48px;
+			line-height:48px;
+			display:block;
+			float:top;
+			color:white;
+			font-size:20px;
+			font-weight:100;
+			margin:15px auto;
+			background:#2d96cd;
+			text-align:center;
+			vertical-align:center;
+			cursor:pointer;
+		}			
+	
