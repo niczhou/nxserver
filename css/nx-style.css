@@ -1,0 +1,70 @@
+
+body {
+	padding:0px;
+}
+
+.nx-nav {
+	background:#344656;
+}
+	.nx-nav-logo {
+		float:top;
+		margin:-12px;
+	}
+	.navbar-nav li {
+		font-size:1.6em;
+		color:#f7f7f7;
+	}
+	.nx-nav-link {
+		color:#f7f7f7;
+	}
+	
+	.nx-nav-link a:link {
+		color:#f7f7f7;
+	}
+	.nx-nav-link a:visited {
+		color:red;
+	}
+	.nx-nav-link a:hover {
+		color:#fe5228;
+	}	
+	a .nx-nav-link:active {
+		color:#fe5228;
+	}
+
+#nx-carousel {
+	/* background:#cf4; */
+}
+
+.nx-worktable {
+	/* background:#ab6; */
+}
+	.nx-wt-item:first-child {
+		/* background:#ab2; */
+	}
+	.service-icon {
+		width:32px;
+	}
+		.glyphicon {
+			width:32px;
+		}
+
+.nx-about {
+	/* background:#ff7; */
+}	
+	.nx-industry {
+		background:#ab2;
+		height:260px;
+	}
+	.nx-project {
+		background:#346;
+		height:260px;
+	}
+	.nx-resume {
+		background:#fe3;
+		height:260px;
+	}
+
+		
+footer {
+	float:bottom;
+}	
