@@ -53,15 +53,12 @@
 		<!-- worktable start -->
 		<div class="nx-about container-fluid">
 			<div class="row">
-				<div class="nx-industry col-xs-2">
-					<a href="#">auto</a>
-				
+				<div class="nx-about-tabs col-xs-3">
+					<div class="nx-about-tab"><p>self-description</p></div>
+					<div class="nx-about-tab"><p>automobile work</p></div>
+					<div class="nx-about-tab"><p>coding-experience</p></div>						
 				</div>
-				<div class="nx-project col-xs-2">
-					<a href="#">auto</a>
-				
-				</div>
-				<div class="nx-resume col-xs-8">
+				<div class="nx-about-detail active col-xs-9">
 					<h5>汽车行业</h5>
 					<span>
 						上汽大众、长安福特、众泰造型
@@ -69,6 +66,26 @@
 					<h5>IT</h5>
 					<span>
 						上汽大众、长安福特、众泰造型
+					</span>					
+				</div>
+				<div class="nx-about-detail col-xs-9">
+					<h5>2</h5>
+					<span>
+						222
+					</span>
+					<h5>IT</h5>
+					<span>
+						222
+					</span>					
+				</div>				
+				<div class="nx-about-detail col-xs-9">
+					<h5>3</h5>
+					<span>
+						333
+					</span>
+					<h5>IT</h5>
+					<span>
+						333
 					</span>					
 				</div>
 			</div>
@@ -101,6 +118,19 @@
 		</footer>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/nx-js.js"></script>		
+		<script type="text/javascript" src="js/nx-js.js"></script>
+		<script>
+			$(document).ready(function(){
+				toggleTab();
+			})
+			
+				function toggleTab(){
+					$('.nx-about-tab').hover(function(){
+						var i = $(this).index();
+						$('.nx-about-detail').removeClass('active');
+						$('.nx-about-detail').eq(i).toggleClass('active');
+					});
+				}
+		</script>
 	</body>
 </html>

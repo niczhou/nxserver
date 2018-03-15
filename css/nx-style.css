@@ -50,19 +50,32 @@ body {
 
 .nx-about {
 	/* background:#ff7; */
+	/* height:360px; */
 }	
-	.nx-industry {
+	.nx-about-tabs {
 		background:#ab2;
-		height:260px;
+		height:360px;
 	}
-	.nx-project {
-		background:#346;
-		height:260px;
-	}
-	.nx-resume {
-		background:#fe3;
-		height:260px;
-	}
+		.nx-about-tab {
+			background:#ab2;
+			height:33%;
+			text-align:center;
+			vertical-align:center;
+		}
+		.nx-about-tab:hover {
+			background:#fe5228;
+		}
+		
+	.nx-about-detail {
+		height:360px;
+		display:none;
+		background:#666;
+	}	
+	.nx-about>.row>.active {
+		display:block;
+	}	
+	
+
 
 		
 footer {
