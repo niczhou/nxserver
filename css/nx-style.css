@@ -6,6 +6,7 @@ body {
 .nx-nav {
 	background:#344656;
 }
+
 	.nx-nav-logo {
 		float:top;
 		margin:-12px;
@@ -14,20 +15,17 @@ body {
 		font-size:1.6em;
 		color:#f7f7f7;
 	}
-	.nx-nav-link {
-		color:#f7f7f7;
-	}
 	
-	.nx-nav-link a:link {
-		color:#f7f7f7;
+	.navbar-default .navbar-nav > li> a:link {
+		color:#ccc;
 	}
-	.nx-nav-link a:visited {
-		color:red;
+	.navbar-default .navbar-nav > li> a:visited {
+		color:#ccc;
 	}
-	.nx-nav-link a:hover {
-		color:#fe5228;
+	.navbar-default .navbar-nav > li> a:hover {
+		color:#eee;
 	}	
-	a .nx-nav-link:active {
+	.navbar-default .navbar-nav > li> a:active {
 		color:#fe5228;
 	}
 
@@ -69,7 +67,7 @@ body {
 	.nx-about-detail {
 		height:360px;
 		display:none;
-		background:#666;
+		background:#eee;
 	}	
 	.nx-about>.row>.active {
 		display:block;
@@ -80,4 +78,8 @@ body {
 		
 footer {
 	float:bottom;
+}
+
+@media {
+
 }	
