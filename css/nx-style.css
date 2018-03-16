@@ -8,14 +8,46 @@ body {
 }
 
 	.nx-nav-logo {
+		height:12px;
 		float:top;
 		margin:-12px;
 	}
+	.nx-nav-search{
+		/* background:#ccc; */
+		float:right;
+		background:url("foto/search.png") no-repeat;
+		}
+		.nx-nav-search input{
+			width:90px;
+			height:22px;
+			float:left;
+			opacity:0.3;		
+		}		
+		.nx-nav-search span{
+			display:inline-block;
+			vertical-align:middle;
+			float:left;
+		}
+		
 	.navbar-nav li {
 		font-size:1.6em;
-		color:#f7f7f7;
+	}	
+		.nx-nav-sub {
+			position:absolute;
+			height:180px;
+			width:650px;		
+			background:#fea;
+			display:none;
+			z-index:10;
+		}
+	.nx-nav-widget {
+		background:#caf;
+		position:absolute;
+		float:top;
 	}
-	
+	.navbar-nav li:hover .nx-nav-sub {
+		display:block;
+	}
 	.navbar-default .navbar-nav > li> a:link {
 		color:#ccc;
 	}
@@ -23,11 +55,12 @@ body {
 		color:#ccc;
 	}
 	.navbar-default .navbar-nav > li> a:hover {
-		color:#eee;
+		color:white;
 	}	
 	.navbar-default .navbar-nav > li> a:active {
 		color:#fe5228;
 	}
+	
 
 #nx-carousel {
 	/* background:#cf4; */
@@ -79,6 +112,9 @@ body {
 footer {
 	float:bottom;
 }
+	footer p {
+		text-align:center;
+	}
 
 @media {
 
