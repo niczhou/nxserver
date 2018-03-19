@@ -5,7 +5,13 @@
 @media (min-width: 768px) and (max-width: 991px) {  
     /*在768和991像素之间的屏幕里,这里的样式才生效*/  
 	body { background-color: #ccc; }
-	.nx-account {display:none;}
+	.nx-nav-widget {
+		right:10px;
+		top:12px;
+	}
+		.nx-nav-search input{
+			width:150px;
+		}
 }  
 @media (min-width: 992px) and (max-width: 1199px) {  
     /*在992和1199像素之间的屏幕里,这里的样式才生效*/  
