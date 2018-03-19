@@ -30,12 +30,40 @@
 				<div id="nx-nav-collapse" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li class=""><a href="#">play</a>
-							<div class="nx-nav-sub">
+							<div class="nx-tetris nx-nav-sub">
 								<canvas width="120px" height="216px"></canvas>
-								<div class="btn-group-vertical">
-									<button class="btn btn-primary">start</button>
-									<button class="btn btn-primary">pause</button>
-									<p class="btn">score: </p>
+								<div class="container nx-tetris-control">
+									<div class="row">
+										<div class="col-xs-4 col-xs-offset-4">
+											<canvas></canvas>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-6">
+											<p class="text-right">score: </p>
+										</div>										
+										<div class="col-xs-6">
+											<p class="text-left">0 </p>
+										</div>
+									</div>									
+									<div class="row">
+										<div class="col-xs-12">
+											<button class="btn btn-sm">start</button>
+											<button class="btn btn-sm pull-right">pause</button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-8">
+											<button class="btn btn-sm">U</button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-8">
+											<button class="btn btn-sm">L</button>
+											<button class="btn btn-sm">D</button>
+											<button class="btn btn-sm">R</button>
+										</div>
+									</div>
 								</div>
 							</div>
 						</li>
